@@ -1,0 +1,6 @@
+name: Manually Migrated Workflow
+
+on:
+  push:
+    branches:
+      - develop
