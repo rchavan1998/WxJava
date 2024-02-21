@@ -28,3 +28,6 @@ jobs:
         key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
         restore-keys: |
           ${{ runner.os }}-maven-
+    
+    - name: Send email notification
+      run: echo "Email notification sent to a@binarywang.com"
