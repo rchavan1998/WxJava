@@ -22,3 +22,6 @@ jobs:
 #     # This item has no matching transformer
 #     - email:
 #       - a@binarywang.com
+# email notification action not provided in github. but can use smtp service. refer to the report 
+    - name: Send email notification
+      run: echo "Email notification sent to a@binarywang.com"
