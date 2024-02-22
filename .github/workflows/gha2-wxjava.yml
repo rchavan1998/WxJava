@@ -7,6 +7,7 @@ on:
     branches:
       - branch-2
 
+
 jobs:
   build:
   - name: Placeholder
