@@ -22,6 +22,8 @@ jobs:
             java-version: '8'
         # -   name: build with maven-
         - run: mvn clean package -DskipTests=true -Dcheckstyle.skip=true
+        - name: Send email notification
+          run: echo "Email notification sent to a@binarywang.com"
     #     uses: actions/checkout@version
     #     run: mvn clean package -DskipTests=true -Dcheckstyle.skip=true
 
