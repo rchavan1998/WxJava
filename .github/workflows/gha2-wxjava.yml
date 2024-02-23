@@ -20,8 +20,8 @@ jobs:
           with:
             distribution: zulu
             java-version: '8'
-        
- #-   name: build with maven-
+        # -   name: build with maven-
+        - run: mvn clean package -DskipTests=true -Dcheckstyle.skip=true
     #     uses: actions/checkout@version
     #     run: mvn clean package -DskipTests=true -Dcheckstyle.skip=true
 
